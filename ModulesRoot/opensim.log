@@ -1,0 +1,173 @@
+[2025-11-26 17:10:32.082] [warning] 
+    THIS EXECUTABLE IS DEPRECATED AND WILL BE REMOVED IN A FUTURE RELEASE.
+
+    Use opensim-cmd instead, which can do everything that this executable can.
+
+      id -S SetupFileName -> opensim-cmd run-tool SetupFileName
+      id -PS              -> opensim-cmd print-xml id
+    
+[2025-11-26 17:10:32.082] [info] Constructing tool from setup file C:\Twente\IUVO\PHASE2\SUB004\OS\UTmodel\SUB004yesExo_five31_10BXIDset.xml
+[2025-11-26 17:10:32.084] [info] --------------------------------------------------------------
+[2025-11-26 17:10:32.084] [info] Starting Inverse Dynamics
+[2025-11-26 17:10:32.084] [info] --------------------------------------------------------------
+[2025-11-26 17:10:32.084] [info] Updating Model file from 40000 to latest format...
+[2025-11-26 17:10:32.100] [info] Loaded model BOX_11.2kg from file C:\Twente\IUVO\PHASE2\SUB004\OS\BoxModel\BOX_11.2kg.osim
+[2025-11-26 17:10:32.100] [warning] Couldn't find file 'BOX_11.2kg.stl'.
+[2025-11-26 17:10:32.100] [cout] [info] 
+               MODEL: BOX_11.2kg
+         coordinates: 6
+              forces: 0
+           actuators: 0
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 1
+              joints: 1
+         constraints: 0
+             markers: 4
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+[2025-11-26 17:10:32.100] [info] Running tool LFB_Protocol...
+[2025-11-26 17:10:32.103] [info] Old version storage/motion file encountered
+[2025-11-26 17:10:32.103] [info] Storage: read data file = C:\Twente\IUVO\PHASE2\SUB004\OS\DataFiles\SUB004yesExo_five31_10BXIK.mot (nr=139 nc=7)
+[2025-11-26 17:10:32.103] [info] .. assuming rotations in Degrees..
+[2025-11-26 17:10:32.104] [info] Low-pass filtering coordinates data with a cutoff frequency of 6.0...
+[2025-11-26 17:10:32.135] [info] InverseDynamicsTool: 139 time frames in 8 millisecond(s).
+[2025-11-26 17:10:32.137] [warning] Directory 'c:\Twente\IUVO\PHASE2\SUB004\OS\DataFiles\' was specified where only file name 'SUB004yesExo_five31_10BXID_unfilt' is expected. The directory will be ignored. Result files will be written to directory 'C:\Twente\IUVO\PHASE2\SUB004\OS\DataFiles\' instead.
+[2025-11-26 17:10:32.140] [info] Inverse dynamics compute time = 56.0 ms
+[2026-03-17 11:33:15.474] [warning] 
+    THIS EXECUTABLE IS DEPRECATED AND WILL BE REMOVED IN A FUTURE RELEASE.
+
+    Use opensim-cmd instead, which can do everything that this executable can.
+
+      analyze -S SetupFileName -> opensim-cmd run-tool SetupFileName
+      analyze -PS              -> opensim-cmd print-xml analyze
+    
+[2026-03-17 11:33:15.476] [info] Loaded library osimActuators
+[2026-03-17 11:33:15.476] [info] Constructing tool from setup file C:\Twente\IUVO\PHASE2\SUB002\OS\UTmodel\SUB002noExo_five9_10EMGJRAset.xml
+[2026-03-17 11:33:15.478] [info] AbstractTool SUB002noExo_five9_10EMG loading model C:\Twente\IUVO\PHASE2\SUB002\OS\UTmodel\LFB_BasicModel_scaled_noconstraints.osim
+[2026-03-17 11:33:15.558] [info] Loaded model LFB_BasicModel-scaled from file C:\Twente\IUVO\PHASE2\SUB002\OS\UTmodel\LFB_BasicModel_scaled_noconstraints.osim
+[2026-03-17 11:33:15.560] [warning] Couldn't find file 'r_pelvis.vtp'.
+[2026-03-17 11:33:15.560] [warning] Couldn't find file 'l_pelvis.vtp'.
+[2026-03-17 11:33:15.560] [warning] Couldn't find file 'sacrum.vtp'.
+[2026-03-17 11:33:15.560] [warning] Couldn't find file 'femur_r.vtp'.
+[2026-03-17 11:33:15.560] [warning] Couldn't find file 'r_patella.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'tibia_r.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'fibula_r.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'talus_rv.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'foot.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'bofoot.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'femur_l.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'l_patella.vtp'.
+[2026-03-17 11:33:15.561] [warning] Couldn't find file 'tibia_l.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'fibula_l.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'talus_lv.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'l_foot.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'l_bofoot.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'lumbar5.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'lumbar4.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'lumbar3.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'lumbar2.vtp'.
+[2026-03-17 11:33:15.562] [warning] Couldn't find file 'lumbar1.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv1sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv2sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv3sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv4sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv5sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv6sm.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'cerv7.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'thoracic12_s.vtp'.
+[2026-03-17 11:33:15.563] [warning] Couldn't find file 'thoracic11_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic10_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic9_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic8_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic7_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic6_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic5_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic4_s.vtp'.
+[2026-03-17 11:33:15.564] [warning] Couldn't find file 'thoracic3_s.vtp'.
+[2026-03-17 11:33:15.565] [warning] Couldn't find file 'thoracic2_s.vtp'.
+[2026-03-17 11:33:15.565] [warning] Couldn't find file 'thoracic1_s.vtp'.
+[2026-03-17 11:33:15.565] [warning] Couldn't find file 'hat_ribs_scap.vtp'.
+[2026-03-17 11:33:15.565] [warning] Couldn't find file 'hat_jaw.vtp'.
+[2026-03-17 11:33:15.565] [warning] Couldn't find file 'hat_skull.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'humerus_rv.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'ulna_rv.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'radius_rv.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'pisiform_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'lunate_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'scaphoid_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'triquetrum_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'hamate_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'capitate_rvs.vtp'.
+[2026-03-17 11:33:15.566] [warning] Couldn't find file 'trapezoid_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'trapezium_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'metacarpal2_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'index_proximal_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'index_medial_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'index_distal_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'metacarpal3_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'middle_proximal_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'middle_medial_rvs.vtp'.
+[2026-03-17 11:33:15.567] [warning] Couldn't find file 'middle_distal_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'metacarpal4_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'ring_proximal_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'ring_medial_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'ring_distal_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'metacarpal5_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'little_proximal_rvs.vtp'.
+[2026-03-17 11:33:15.568] [warning] Couldn't find file 'little_medial_rvs.vtp'.
+[2026-03-17 11:33:15.802] [warning] Couldn't find file 'little_distal_rvs.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'metacarpal1_rvs.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'thumb_proximal_rvs.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'thumb_distal_rvs.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'humerus_lv.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'ulna_lv.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'radius_lv.vtp'.
+[2026-03-17 11:33:15.803] [warning] Couldn't find file 'pisiform_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'lunate_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'scaphoid_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'triquetrum_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'hamate_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'capitate_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'trapezoid_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'trapezium_lvs.vtp'.
+[2026-03-17 11:33:15.804] [warning] Couldn't find file 'metacarpal2_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'index_proximal_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'index_medial_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'index_distal_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'metacarpal3_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'middle_proximal_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'middle_medial_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'middle_distal_lvs.vtp'.
+[2026-03-17 11:33:15.805] [warning] Couldn't find file 'metacarpal4_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'ring_proximal_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'ring_medial_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'ring_distal_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'metacarpal5_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'little_proximal_lvs.vtp'.
+[2026-03-17 11:33:15.806] [warning] Couldn't find file 'little_medial_lvs.vtp'.
+[2026-03-17 11:33:15.807] [warning] Couldn't find file 'little_distal_lvs.vtp'.
+[2026-03-17 11:33:15.807] [warning] Couldn't find file 'metacarpal1_lvs.vtp'.
+[2026-03-17 11:33:15.807] [warning] Couldn't find file 'thumb_proximal_lvs.vtp'.
+[2026-03-17 11:33:15.807] [warning] Couldn't find file 'thumb_distal_lvs.vtp'.
+[2026-03-17 11:33:15.824] [info] --------------------------------------------------------------
+[2026-03-17 11:33:15.824] [info] Loaded library
+[2026-03-17 11:33:15.824] [info] --------------------------------------------------------------
+[2026-03-17 11:33:15.928] [info] Storage: read data file = C:\Twente\IUVO\PHASE2\SUB002\OS\DataFiles\SUB002noExo_five9_10XLD.mot (nr=91 nc=31)
+[2026-03-17 11:33:15.930] [info] ExternalForce::GRF_R Data source being set to SUB002noExo_five9_10
+[2026-03-17 11:33:15.930] [info] ExternalForce::GRF_L Data source being set to SUB002noExo_five9_10
+[2026-03-17 11:33:15.930] [info] ExternalForce::hand_r Data source being set to SUB002noExo_five9_10
+[2026-03-17 11:33:15.930] [info] ExternalForce::hand_l Data source being set to SUB002noExo_five9_10
+[2026-03-17 11:33:15.958] [info] Loading coordinates from file 'C:\Twente\IUVO\PHASE2\SUB002\OS\DataFiles\SUB002noExo_five9_10IK.mot'.
+[2026-03-17 11:33:15.959] [info] Old version storage/motion file encountered
+[2026-03-17 11:33:15.959] [info] Storage: read data file = C:\Twente\IUVO\PHASE2\SUB002\OS\DataFiles\SUB002noExo_five9_10IK.mot (nr=92 nc=60)
+[2026-03-17 11:33:15.959] [info] .. assuming rotations in Degrees..
+[2026-03-17 11:33:15.961] [info] Low-pass filtering coordinates data with a cutoff frequency of 6.0...
+[2026-03-17 11:33:16.300] [info] Found 184 state vectors with time stamps ranging from -0.92 to 2.74.
+[2026-03-17 11:33:16.300] [info] Executing the analyses from -1.96509e-14 to 1.82...
+[2026-03-17 11:33:16.302] [info] Loading actuator forces from file C:\Twente\IUVO\PHASE2\SUB002\CEINMS\execution\OP\EMG\SUB002noExo_five9_10\MuscleForces.sto.
+[2026-03-17 11:33:16.302] [error] IO.OpenInputFile(const string&,openmode mode): failed to open C:\Twente\IUVO\PHASE2\SUB002\CEINMS\execution\OP\EMG\SUB002noExo_five9_10\MuscleForces.sto.
+[2026-03-17 11:33:16.305] [error] Exception in analyze: Storage: Failed to open file 'C:\Twente\IUVO\PHASE2\SUB002\CEINMS\execution\OP\EMG\SUB002noExo_five9_10\MuscleForces.sto'. Verify that the file exists at the specified location.
+	Thrown at Storage.cpp:186 in Storage().
